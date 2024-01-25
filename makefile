@@ -39,6 +39,10 @@ advancedClassificationRecursion.o: advancedClassificationRecursion.c NumClass.h
 	$(CC) $(FLAGS) -c -fPIC -o advancedClassificationRecursion.o advancedClassificationRecursion.c
 main.o: main.c NumClass.h
 	$(CC) $(FLAGS) -c -fPIC -o main.o main.c 
+loops: libclassloops.a
+recursives: libclassrec.a
+loopd: libclassrec.so 
+recursived: libclassloops.so
 #make clean
 .PHONY: clean all
 
