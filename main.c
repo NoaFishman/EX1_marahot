@@ -50,5 +50,5 @@ for (i=min;i<=max; i++){
 }
 
 printf("\n");
-return TRUE;
+return 0;
 }
