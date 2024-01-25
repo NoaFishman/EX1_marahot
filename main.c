@@ -19,7 +19,7 @@ else{
     min=x;
 }
 // run in loop on all the numbers between the two numbers te user ensert and check if they are armstrong
-printf("\nThe Armstrong numbers are:");
+printf("The Armstrong numbers are:");
 for (i=min;i<=max; i++){
     if(isArmstrong(i)==TRUE){
         printf(" %d",i);
